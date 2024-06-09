@@ -1,7 +1,3 @@
-run = "cowsay Configure me!"
-
-[nix]
-channel = "stable-23_11"
-
-[deployment]
-run = ["sh", "-c", "cowsay Configure me!"]
+[[ports]]
+localPort = 80
+externalPort = 80
